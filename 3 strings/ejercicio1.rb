@@ -5,3 +5,9 @@
 
 cadena = 'Hola Mundo!'
 caracter = 'o'
+
+def read(cadena, caracter)
+    cadena.include? caracter
+end
+
+puts read(cadena, caracter)
